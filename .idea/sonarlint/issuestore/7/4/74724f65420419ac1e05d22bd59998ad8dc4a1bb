@@ -1,0 +1,9 @@
+
+Fsquid:S1148="#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8´šõËä-
+Usquid:S1135@"2Complete the task associated to this TODO comment.(ùè»¢þÿÿÿÿ8´šõËä-
+tsquid:UselessImportCheck"DRemove this unused import 'org.springframework.http.ResponseEntity'.(¶¯ø¦úÿÿÿÿ8êú²Öä-
+…squid:S1488a"bImmediately return this expression instead of assigning it to the temporary variable "registCode".(¹¦ßÊùÿÿÿÿ8å€úËä-
+Osquid:S11352"2Complete the task associated to this TODO comment.(´Àã28´šõËä-
+Lsquid:S2140a")Use "java.util.Random.nextInt()" instead.(¹¦ßÊùÿÿÿÿ8å€úËä-
+asquid:S11558">Use isEmpty() to check whether the collection is empty or not.(–ÄŒˆüÿÿÿÿ8´šõËä-
+bsquid:UselessImportCheck"7Remove this unused import 'com.google.gson.JsonObject'.(µÊ´½8äÓ»Òå-

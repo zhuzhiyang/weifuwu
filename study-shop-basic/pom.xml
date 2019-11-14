@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>study</artifactId>
+        <groupId>com.zzy</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>study-shop-basic</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>study-shop-basic-springcloud-eureka</module>
+        <module>study-shop-basic-apollo-config-server</module>
+        <module>study-shop-basic-springcloud-zuul</module>
+        <module>study-shop-basic-xuxueli-xxljob</module>
+        <module>study-shop-basic-codingapi-lcn</module>
+        <module>study-shop-basic-codingapi-zipkin</module>
+    </modules>
+
+
+</project>

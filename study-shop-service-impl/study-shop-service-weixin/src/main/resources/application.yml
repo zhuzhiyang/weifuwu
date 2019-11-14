@@ -1,0 +1,56 @@
+eureka:
+  client:
+    registryFetchIntervalSeconds: 10
+    serviceUrl:
+      defaultZone: ${EUREKA_DEFAULT_ZONE:http://localhost:8000/eureka/}
+  instance:
+    leaseExpirationDurationInSeconds: 30
+    leaseRenewalIntervalInSeconds: 10
+    metadata-map:
+      VERSION: v1
+    preferIpAddress: true
+logging:
+  level:
+    com:
+      github:
+        binarywang:
+          demo:
+            wx:
+              mp: DEBUG
+    me:
+      chanjar:
+        weixin: DEBUG
+    org:
+      springframework:
+        web: INFO
+server:
+  port: 8020
+spring:
+  application:
+    name: weixin-service
+  redis:
+    host: localhost
+    port: 6379
+swagger:
+  base-package: me.service
+  contact:
+    email: 694590924@qq.com
+    name: zzy
+  description: 该项目“基于SpringCloud2.x构建微服务电商项目”
+  title: SpringCloud2.x构建微服务电商项目-微信服务接口
+  version: 1.1
+wx:
+  mp:
+    configs:
+      -   appId: wxe62589e700b71553
+          secret: 5e376f5d900284bcdfb53a0e588760c1
+          token: zzy
+zzy:
+  weixin:
+    default:
+      registration:
+        code:
+          message: 您的消息，我们已经收到,会及时回复给您的!
+    registration:
+      code:
+        message: 您的注册码为:%s

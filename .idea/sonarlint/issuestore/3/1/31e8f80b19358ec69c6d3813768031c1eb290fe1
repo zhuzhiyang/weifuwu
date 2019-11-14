@@ -1,0 +1,3 @@
+
+esquid:UselessImportCheck"5Remove this unused import 'java.lang.reflect.Member'.(ƒô¾‘ùÿÿÿÿ8ÉÓ¬Öä-
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(€à›‚úÿÿÿÿ

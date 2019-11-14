@@ -1,0 +1,7 @@
+
+Lsquid:S1172@"0Remove this unused method parameter "wxMessage".(¶ãèÿÿÿÿÿ
+Nsquid:S1135 "2Complete the task associated to this TODO comment.(Üİ Ôûÿÿÿÿ
+csquid:S00112A"FDefine and throw a dedicated exception instead of using a generic one.(èİÎÑşÿÿÿÿ
+¢%squid:RedundantThrowsDeclarationCheckA"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(èİÎÑşÿÿÿÿ
+Isquid:S1135B"2Complete the task associated to this TODO comment.(…ïœ†
+`squid:S25830"DChange this condition so that it does not always evaluate to "false"(Úîòáùÿÿÿÿ

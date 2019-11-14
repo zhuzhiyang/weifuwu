@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="studyshopapidto" />
+        <module name="studyshopbasicapolloconfigserver" />
+        <module name="studyshopbasiccodingapilcn" />
+        <module name="studyshopbasiccodingapizipkin" />
+        <module name="studyshopbasicspringcloudeureka" />
+        <module name="studyshopbasicspringcloudzuul" />
+        <module name="studyshopbasicxuxuelixxljob" />
+        <module name="studyshopcommoncore" />
+        <module name="studyshopportalcms" />
+        <module name="studyshopportalsearch" />
+        <module name="studyshopportalspike" />
+        <module name="studyshopportalsso" />
+        <module name="studyshopportalweb" />
+        <module name="studyshopserviceapiitem" />
+        <module name="studyshopserviceapimember" />
+        <module name="studyshopserviceapiorder" />
+        <module name="studyshopserviceapipay" />
+        <module name="studyshopserviceapisearch" />
+        <module name="studyshopserviceapiweixin" />
+        <module name="studyshopserviceitem" />
+        <module name="studyshopservicemember" />
+        <module name="studyshopserviceorder" />
+        <module name="studyshopservicepay" />
+        <module name="studyshopservicesearch" />
+        <module name="studyshopserviceweixin" />
+      </profile>
+      <profile name="Annotation profile for studyshopserviceapispike" enabled="true">
+        <sourceOutputDir name="../../study-shop-service-api/study-shop-service-api-spike/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../study-shop-service-api/study-shop-service-api-spike/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="studyshopserviceapispike" />
+      </profile>
+      <profile name="Annotation profile for study" enabled="true">
+        <sourceOutputDir name="../../study-shop-service-api/study-shop-service-api-sso/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../study-shop-service-api/study-shop-service-api-sso/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="studyshopserviceapisso" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="studyshopentity" target="1.8" />
+      <module name="studyshopentitymember" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="studyshopapidto" options="-parameters" />
+      <module name="studyshopbasicapolloconfigserver" options="-parameters" />
+      <module name="studyshopbasiccodingapilcn" options="-parameters" />
+      <module name="studyshopbasiccodingapizipkin" options="-parameters" />
+      <module name="studyshopbasicspringcloudeureka" options="-parameters" />
+      <module name="studyshopbasicspringcloudzuul" options="-parameters" />
+      <module name="studyshopbasicxuxuelixxljob" options="-parameters" />
+      <module name="studyshopcommoncore" options="-parameters" />
+      <module name="studyshopentitymember" options="-parameters" />
+      <module name="studyshopportalcms" options="-parameters" />
+      <module name="studyshopportalsearch" options="-parameters" />
+      <module name="studyshopportalspike" options="-parameters" />
+      <module name="studyshopportalsso" options="-parameters" />
+      <module name="studyshopportalweb" options="-parameters" />
+      <module name="studyshopserviceapiitem" options="-parameters" />
+      <module name="studyshopserviceapimember" options="-parameters" />
+      <module name="studyshopserviceapiorder" options="-parameters" />
+      <module name="studyshopserviceapipay" options="-parameters" />
+      <module name="studyshopserviceapisearch" options="-parameters" />
+      <module name="studyshopserviceapispike" options="-parameters" />
+      <module name="studyshopserviceapisso" options="-parameters" />
+      <module name="studyshopserviceapiweixin" options="-parameters" />
+      <module name="studyshopserviceitem" options="-parameters" />
+      <module name="studyshopservicemember" options="-parameters" />
+      <module name="studyshopserviceorder" options="-parameters" />
+      <module name="studyshopservicepay" options="-parameters" />
+      <module name="studyshopservicesearch" options="-parameters" />
+      <module name="studyshopserviceweixin" options="-parameters" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,32 @@
+eureka:
+  client:
+    registryFetchIntervalSeconds: 10
+    serviceUrl:
+      defaultZone: ${EUREKA_DEFAULT_ZONE:http://localhost:8000/eureka/}
+  instance:
+    leaseExpirationDurationInSeconds: 30
+    leaseRenewalIntervalInSeconds: 10
+    metadata-map:
+      VERSION: v1
+    preferIpAddress: true
+server:
+  port: 8030
+spring:
+  application:
+    name: member-service
+  datasource:
+    password: zhuzhiyang
+    url: jdbc:mysql://localhost:3306/study_member?useUnicode=true&characterEncoding=utf-8&useSSL=false
+    username: root
+  datasource,driver-class-name: com.mysql.jdbc.Driver
+  redis:
+    host: localhost
+    port: 6379
+swagger:
+  base-package: com.zzy.service
+  contact:
+    email: 694590924@qq.com
+    name: zzy
+  description: 该项目“基于SpringCloud2.x构建微服务电商项目”
+  title: SpringCloud2.x构建微服务电商项目-会员服务接口
+  version: 1.1

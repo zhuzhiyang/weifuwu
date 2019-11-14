@@ -1,0 +1,12 @@
+
+nsquid:S3027Κ"JPut single-quotes around '/' to use the faster "lastIndexOf(char)" method.(λ¤ΠΡωÿÿÿÿ8ΗΊφε-
+Gsquid:S1148"#Use a logger to log this exception.(€ΙΤ…ύÿÿÿÿ8ΗΊφε-
+jsquid:CommentedOutCodeLine–"<This block of commented-out lines of code should be removed.(ΠΚϊΉ8ΗΊφε-
+Vsquid:S2589Ω"7Remove this expression which always evaluates to "true"(µÿ«8ΗΊφε-
+Fsquid:S1148M"#Use a logger to log this exception.(€ΙΤ…ύÿÿÿÿ8ξ»φε-
+esquid:S3027Ω"FPut single-quotes around ':' to use the faster "indexOf(char)" method.(µÿ«8ΗΊφε-
+jsquid:CommentedOutCodeLine¶"<This block of commented-out lines of code should be removed.(ΠΚϊΉ8ΗΊφε-
+Gsquid:S1148Ό"#Use a logger to log this exception.(€ΙΤ…ύÿÿÿÿ8ΗΊφε-
+Fsquid:S11483"#Use a logger to log this exception.(€ΙΤ…ύÿÿÿÿ8ξ»φε-
+Xsquid:S1118":Add a private constructor to hide the implicit public one.(ν›…8ΗΊφε-
+Psquid:S2692Ω"10 is a valid index, but is ignored by this check.(µÿ«8ΗΊφε-

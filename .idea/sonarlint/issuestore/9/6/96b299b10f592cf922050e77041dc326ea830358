@@ -1,0 +1,7 @@
+
+ssquid:S00116 "VRename this field "is_avalible" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•š‰°ùÿÿÿÿ
+lsquid:S00116&"TRename this field "WX_OPENID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ª¶íÙ
+jsquid:S00116""RRename this field "pic_img" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€±ÿ
+gsquid:UselessImportCheck"DRemove this unused import 'io.swagger.annotations.ApiModelProperty'.(í˜í
+lsquid:S00116$"TRename this field "qq_openid" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Í‰Í
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ı’ıÿÿÿÿ
